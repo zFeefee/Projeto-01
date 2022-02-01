@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccc;
+  margin:0;
+}
+.menu {
+  background-image: url(../imagens/bg-3.jpg);
+  height: 700px;
+  background-position: right center;
+  background-size: cover;
+  border-top: 1px solid transparent;
+}
+
+.menu-content {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+}
+
+.menu-content h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  text-shadow: 3px 3px 2px #333;
+}
+.menu-content p {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  width: 15%;
+  margin: 0;
+  padding: 15px;
+  border-bottom: 3px solid white;
+}
+
+.menu nav ul {
+  text-align: right;
+  margin: 25px 25px 0 0;
+}
+.menu nav li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  border: 1px solid white;
+}
+
+.menu nav a {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: block;
+  padding: 9px;
+  color: white;
+  text-decoration: none; /*tirar o sublinhado ou adicionar algo*/
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px; /*espaço entre as letras*/
+}
+.menu nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+main {
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+}
+
+.content-section {
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+  overflow: auto;
+}
+.card {
+  width: 32%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.card01,
+.card02 {
+  margin-right: 2%;
+}
+.card img {
+  width: 100%;
+  display:block;
+}
+.card p{
+  background: rgb(75, 74, 74);
+  color: white;
+  margin: 0;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+.content-section2 {
+  background-color: white;
+  margin-top: 15px;
+  padding: 30px;
+}
+.content-section2 h2 {
+  background-color: rgb(236, 235, 235);
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  border-bottom: 2px solid;
+  border-color: rgb(155, 151, 151);
+}
+
+.adr {
+  font-size: 14px;
+  height: 80px;
+  margin: auto;
+  padding: 10px;
+}
+
+.rodape  p{
+  margin: 0;
+  height: 95px;
+  background-color: rgb(110, 109, 109);
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 3px #333;
+  line-height: 95px;
+}
